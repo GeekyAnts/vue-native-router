@@ -1,0 +1,33 @@
+{
+    "name": "vue-native-router",
+    "version": "0.0.1-alpha.0",
+    "description": "Router for mobile apps",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/GeekyAnts/vue-native-router.git"
+    },
+    "keywords": [
+      "vue",
+      "native",
+      "mobile",
+      "router"
+    ],
+    "engines": {
+      "node": "^4.5 || >=5.10"
+    },
+    "engineStrict": true,
+    "author": "Geekyants (https://geekyants.io/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/GeekyAnts/vue-native-router/issues"
+    },
+    "files": [
+      "bin/**",
+      "index.js"
+    ],
+    "homepage": "https://github.com/GeekyAnts/vue-native-router",
+    "dependencies": {
+        "react-native-router": "^0.2.1"
+    }
+  }
