@@ -1,6 +1,6 @@
 import ReactNavigation from "react-navigation";
 
-import RouterPlugin from "./routerPlugin";
+import RouterPluginDefault from "./routerPlugin";
 
 export default {
   createNavigationContainer: ReactNavigation.createNavigationContainer,
@@ -42,7 +42,7 @@ export default {
   withNavigation: ReactNavigation.withNavigation,
   withNavigationFocus: ReactNavigation.withNavigationFocus,
   withOrientation: ReactNavigation.withOrientation,
-  RouterPlugin
+  RouterPlugin: RouterPluginDefault
 };
 
 export const createNavigationContainer =
@@ -86,4 +86,4 @@ export const TabBarBottom = ReactNavigation.TabBarBottom;
 export const SwitchView = ReactNavigation.SwitchView;
 export const withNavigation = ReactNavigation.withNavigation;
 export const withNavigationFocus = ReactNavigation.withNavigationFocus;
-export const RouterPlugin = RouterPlugin;
+export const RouterPlugin = RouterPluginDefault;
