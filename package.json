@@ -1,36 +1,29 @@
 {
-    "name": "vue-native-router",
-    "version": "0.0.1-alpha.0",
-    "description": "Router for mobile apps",
-    "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/GeekyAnts/vue-native-router.git"
-    },
-    "keywords": [
-      "vue",
-      "native",
-      "mobile",
-      "router"
-    ],
-    "engines": {
-      "node": "^4.5 || >=5.10"
-    },
-    "engineStrict": true,
-    "author": "Geekyants (https://geekyants.io/)",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/GeekyAnts/vue-native-router/issues"
-    },
-    "files": [
-      "bin/**",
-      "index.js"
-    ],
-    "homepage": "https://github.com/GeekyAnts/vue-native-router",
-    "peerDependencies": {
-      "react-navigation": "^1.1.1",
-      "react-vue": "0.0.5",
-      "react-vue-helper": "0.0.6",
-      "react-vue-native-scripts": "0.0.2"
-    }
+  "name": "vue-native-router",
+  "version": "0.0.1-alpha.0",
+  "description": "Router for mobile apps",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeekyAnts/vue-native-router.git"
+  },
+  "keywords": ["vue", "native", "mobile", "router"],
+  "engines": {
+    "node": "^4.5 || >=5.10"
+  },
+  "engineStrict": true,
+  "author": "Geekyants (https://geekyants.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeekyAnts/vue-native-router/issues"
+  },
+  "homepage": "https://github.com/GeekyAnts/vue-native-router",
+  "dependencies": {
+    "react-navigation": "1.5.11"
+  },
+  "peerDependencies": {
+    "vue-native-core": "0.0.5",
+    "vue-native-helper": "0.0.6",
+    "vue-native-scripts": "0.0.7"
   }
+}
