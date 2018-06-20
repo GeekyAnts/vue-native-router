@@ -7,4 +7,4 @@ export default {
   RouterPlugin: RouterPluginDefault
 };
 export * from "react-navigation";
-export { default } from "./routerPlugin";
+export { default as routerPlugin } from "./routerPlugin";
