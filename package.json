@@ -1,6 +1,6 @@
 {
   "name": "vue-native-router",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.2",
   "description": "Router for mobile apps",
   "main": "src/index.js",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/GeekyAnts/vue-native-router",
   "dependencies": {
-    "react-navigation": "1.5.11"
+    "react-navigation": "3.11.1"
   },
   "peerDependencies": {
     "vue-native-core": "0.0.5",
