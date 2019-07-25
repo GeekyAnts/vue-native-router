@@ -3,7 +3,6 @@ import ReactNavigation from "react-navigation";
 import RouterPluginDefault from "./routerPlugin";
 
 export default {
-  createNavigationContainer: ReactNavigation.createNavigationContainer,
   createAppContainer: ReactNavigation.createAppContainer,
   StateUtils: ReactNavigation.StateUtils,
   createNavigator: ReactNavigation.createNavigator,
@@ -25,7 +24,6 @@ export default {
   StackRouter: ReactNavigation.StackRouter,
   TabRouter: ReactNavigation.TabRouter,
   SwitchRouter: ReactNavigation.SwitchRouter,
-  Transitioner: ReactNavigation.Transitioner,
   StackView: ReactNavigation.StackView,
   StackViewCard: ReactNavigation.StackViewCard,
   SafeAreaView: ReactNavigation.SafeAreaView,
@@ -46,8 +44,8 @@ export default {
   RouterPlugin: RouterPluginDefault
 };
 
-export const createNavigationContainer =
-  ReactNavigation.createNavigationContainer;
+export const createAppContainer =
+  ReactNavigation.createAppContainer;
 export const StateUtils = ReactNavigation.StateUtils;
 export const createNavigator = ReactNavigation.createNavigator;
 export const createStackNavigator = ReactNavigation.createStackNavigator;
@@ -70,7 +68,6 @@ export const DrawerActions = ReactNavigation.DrawerActions;
 export const StackRouter = ReactNavigation.StackRouter;
 export const TabRouter = ReactNavigation.TabRouter;
 export const SwitchRouter = ReactNavigation.SwitchRouter;
-export const Transitioner = ReactNavigation.Transitioner;
 export const StackView = ReactNavigation.StackView;
 export const StackViewCard = ReactNavigation.StackViewCard;
 export const SafeAreaView = ReactNavigation.SafeAreaView;
