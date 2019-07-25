@@ -4,6 +4,7 @@ import RouterPluginDefault from "./routerPlugin";
 
 export default {
   createNavigationContainer: ReactNavigation.createNavigationContainer,
+  createAppContainer: ReactNavigation.createAppContainer,
   StateUtils: ReactNavigation.StateUtils,
   createNavigator: ReactNavigation.createNavigator,
   createStackNavigator: ReactNavigation.createStackNavigator,
