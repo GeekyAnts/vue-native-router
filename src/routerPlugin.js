@@ -1,4 +1,4 @@
-import { get } from "lodash";
+import get from "lodash.get";
 const RouterPlugin = {
   // The install method is all that needs to exist on the plugin object.
   // It takes the global Vue object as well as user-defined options.
