@@ -24,8 +24,13 @@
   },
   "homepage": "https://github.com/GeekyAnts/vue-native-router",
   "dependencies": {
+    "@react-navigation/core": "^3.4.2",
+    "@react-navigation/native": "^3.5.0",
     "lodash.get": "^4.4.2",
-    "react-navigation": "1.5.11"
+    "react-navigation-drawer": "^2.0.0",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "react-navigation-stack": "^1.4.0",
+    "react-navigation-tabs": "^2.3.0"
   },
   "peerDependencies": {
     "vue-native-core": "0.0.5",
