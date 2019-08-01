@@ -4,9 +4,6 @@ import {
 
   // Navigators
   createNavigator,
-  NavigationContext,
-  NavigationProvider,
-  NavigationConsumer,
   createSwitchNavigator,
 
   // Actions
@@ -85,9 +82,6 @@ export {
   StateUtils,
   getNavigation,
   createNavigator,
-  NavigationContext,
-  NavigationProvider,
-  NavigationConsumer,
   createSwitchNavigator,
   NavigationActions,
   StackActions,
