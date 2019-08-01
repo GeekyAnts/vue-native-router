@@ -123,7 +123,7 @@ export {
   createDrawerNavigator,
   DrawerActions,
   DrawerView,
-  DrawerItems,
+  DrawerNavigatorItems,
 
   // tabs
   createTabNavigator,
