@@ -7,7 +7,12 @@
     "type": "git",
     "url": "https://github.com/GeekyAnts/vue-native-router.git"
   },
-  "keywords": ["vue", "native", "mobile", "router"],
+  "keywords": [
+    "vue",
+    "native",
+    "mobile",
+    "router"
+  ],
   "engines": {
     "node": "^4.5 || >=5.10"
   },
@@ -19,7 +24,13 @@
   },
   "homepage": "https://github.com/GeekyAnts/vue-native-router",
   "dependencies": {
-    "react-navigation": "1.5.11"
+    "@react-navigation/core": "^3.4.2",
+    "@react-navigation/native": "^3.5.0",
+    "lodash.get": "^4.4.2",
+    "react-navigation-drawer": "^2.0.0",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "react-navigation-stack": "^1.4.0",
+    "react-navigation-tabs": "^2.3.0"
   },
   "peerDependencies": {
     "vue-native-core": "0.0.5",

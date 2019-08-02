@@ -1,9 +1,8 @@
-import { get } from "lodash";
+import get from "lodash.get";
 const RouterPlugin = {
   // The install method is all that needs to exist on the plugin object.
   // It takes the global Vue object as well as user-defined options.
   install(Vue, options) {
-    console.log(options);
     // We call Vue.mixin() here to inject functionality into all components.
     Vue.mixin({
       beforeCreate() {
@@ -24,7 +23,7 @@ const RouterPlugin = {
           goBack: () => {
             this.navigator._navigation.goBack(null);
           },
-          push: routeName => this.navigator._navigation.navigate(routeName)
+          push: routeName => this.navigator._navigation.push(routeName)
         };
       }
     });
