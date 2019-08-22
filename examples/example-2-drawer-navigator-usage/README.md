@@ -1,6 +1,6 @@
-## Vue Native Router example 2: DrawerNavigator usage
+## Vue Native Router example 2: `createDrawerNavigator` usage
 
-This project contains a simple example of how to use the `DrawerNavigator` component with Vue Native. It acts as a reference for the Vue Native documentation on [navigation](https://vue-native.io/docs/vue-native-router.html).
+This project contains a simple example of how to use `createDrawerNavigator` for drawer navigation in Vue Native. It acts as a reference for the Vue Native documentation on [navigation](https://vue-native.io/docs/vue-native-router.html).
 
 This is an Expo based example, but you can use the code just as easily with pure React Native.
 
