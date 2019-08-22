@@ -1,0 +1,12 @@
+examples/
+
+# VSCode
+.vscode/
+
+# NodeJS
+npm-debug.log
+node_modules/
+yarn-error.log
+
+# OS X
+.DS_Store
