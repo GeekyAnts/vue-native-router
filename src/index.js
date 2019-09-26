@@ -1,4 +1,6 @@
 import {
+  /* @react-navigation/core */
+
   StateUtils,
   getNavigation,
 
@@ -33,16 +35,16 @@ import {
   // HOCs
   withNavigation,
   withNavigationFocus,
-} from '@react-navigation/core';
 
-import {
+  /* @react-navigation/native */
+
   createAppContainer,
   createKeyboardAwareNavigator,
   createNavigationAwareScrollable,
   withOrientation,
   ResourceSavingSceneView,
   SafeAreaView,
-} from '@react-navigation/native';
+} from 'react-navigation';
 
 import {
   createStackNavigator,
