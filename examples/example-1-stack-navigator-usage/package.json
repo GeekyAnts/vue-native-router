@@ -23,7 +23,7 @@
     "react-native-web": "~0.11.7",
     "vue-native-core": "0.1.4",
     "vue-native-helper": "0.1.4",
-    "vue-native-router": "git+https://github.com/anmoljain10/vue-native-router.git"
+    "vue-native-router": "git+https://github.com/anmoljain10/vue-native-router.git#upgrade/vue-native-router"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
