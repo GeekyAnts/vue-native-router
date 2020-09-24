@@ -26,10 +26,10 @@
   "dependencies": {
     "lodash.get": "^4.4.2",
     "react-navigation": "~4.1.1",
-    "react-navigation-drawer": "^2.5.0",
+    "react-navigation-drawer": "^2.3.4",
     "react-navigation-material-bottom-tabs": "^2.3.0",
-    "react-navigation-stack": "^2.8.2",
-    "react-navigation-tabs": "^2.9.0"
+    "react-navigation-stack": "^2.1.1",
+    "react-navigation-tabs": "^2.7.0"
   },
   "peerDependencies": {
     "vue-native-core": "~0.1.0",
