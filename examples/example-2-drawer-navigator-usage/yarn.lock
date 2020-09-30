@@ -1937,20 +1937,20 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
   integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
 
-"@react-navigation/core@^3.5.2":
-  version "3.7.6"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.7.6.tgz#e0244fcdc22937825b252197f70308bbe5709c58"
-  integrity sha512-loYFIn0Boy7C+vYxwcqsBVRFRO1EizZJErdutE6/3Jw6dbzz3Bnzupbw5hckZNB16GckacMwGoepZNIK51IIcg==
+"@react-navigation/core@^3.7.7":
+  version "3.7.7"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.7.7.tgz#398b23836928f96d23eb60a10f8be77b160f1284"
+  integrity sha512-0EYy7Hyip42Fua71w+Hti39u9tKzyNjdHZSWahWoZOZnEIgFwHmW3oT4A18Xv2l/rC2LOyfiddhp/Y1GIrV/3g==
   dependencies:
     hoist-non-react-statics "^3.3.2"
     path-to-regexp "^1.8.0"
-    query-string "^6.11.1"
+    query-string "^6.13.1"
     react-is "^16.13.0"
 
-"@react-navigation/native@^3.6.5":
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-3.8.0.tgz#35882c3fc2f997ea1a43c12a15088cf4c818fd92"
-  integrity sha512-Uym5XdNOTpTR6XC4IVa/Shfn12DUF3DUIqch+cpiLNfvauQukVmWoz+Rfxd2faGOzxT12EhrWGFsMJ/8nuTfcw==
+"@react-navigation/native@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-3.8.1.tgz#c3b13468a4729b0c60d2be9383e21a6860e020c4"
+  integrity sha512-EUOV7Ac09iMqphKidpLGnzn7pJr+XmDxJc4bGEKtMH/m/EpJYN93llzu9aPJxDJymMQsc/tyPIjJw2vKFcfNFQ==
   dependencies:
     hoist-non-react-statics "^3.3.2"
     react-native-safe-area-view "^0.14.9"
@@ -2964,14 +2964,6 @@ color@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/color/-/color-2.0.1.tgz#e4ed78a3c4603d0891eba5430b04b86314f4c839"
   integrity sha512-ubUCVVKfT7r2w2D3qtHakj8mbmKms+tThR8gI8zEYCbUBl8/voqFGt3kgBqGwXAopgXybnkuOq+qMYCRrp4cXw==
-  dependencies:
-    color-convert "^1.9.1"
-    color-string "^1.5.2"
-
-color@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/color/-/color-3.1.2.tgz#68148e7f85d41ad7649c5fa8c8106f098d229e10"
-  integrity sha512-vXTJhHebByxZn3lDvDJYw4lR5+uB3vuoHsuYA5AKuxRVn5wzzIfQKGLBmgdVRHKTJYeK5rvJcHnrd0Li49CFpg==
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
@@ -6152,10 +6144,10 @@ qs@^6.5.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.8.0.tgz#87b763f0d37ca54200334cd57bb2ef8f68a1d081"
   integrity sha512-tPSkj8y92PfZVbinY1n84i1Qdx75lZjMQYx9WZhnkofyxzw2r7Ho39G3/aEvSUdebxpnnM4LZJCtvE/Aq3+s9w==
 
-query-string@^6.11.1:
-  version "6.13.2"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.2.tgz#3585aa9412c957cbd358fd5eaca7466f05586dda"
-  integrity sha512-BMmDaUiLDFU1hlM38jTFcRt7HYiGP/zt1sRzrIWm5zpeEuO1rkbPS0ELI3uehoLuuhHDCS8u8lhFN3fEN4JzPQ==
+query-string@^6.13.1:
+  version "6.13.4"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.4.tgz#b35a9a3bd4955bce55f94feb0e819b3d0be6f66f"
+  integrity sha512-E2NPIeJoBEJGQNy3ib1k/Z/OkDBUKIo8IV2ZVwbKfoa65IS9unqWWUlLcbfU70Da0qNoxUZZA8CfKUjKLE641Q==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
@@ -6238,11 +6230,6 @@ react-native-gesture-handler@~1.6.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-iphone-x-helper@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
-  integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
-
 react-native-paper@^2.16.0:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-2.16.0.tgz#5a9edd5615bb010ec0d29cbfd5524c2944b2505d"
@@ -6286,7 +6273,7 @@ react-native-screens@~2.9.0:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.9.0.tgz#ead2843107ba00fee259aa377582e457c74f1f3b"
   integrity sha512-5MaiUD6HA3nzY3JbVI8l3V7pKedtxQF3d8qktTVI0WmWXTI4QzqOU8r8fPVvfKo3MhOXwhWBjr+kQ7DZaIQQeg==
 
-react-native-tab-view@^2.11.0:
+react-native-tab-view@^2.15.1:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-2.15.1.tgz#cf4df4ffdec504263a2e06a6becd8831b9a19ad9"
   integrity sha512-cDYl1pNWspbEHBjHrHVpIC40h4g8VhZe0CIG0CUKcouX98vHVfAojxhgWuRosq9qMhITHpLKM+7BmBLnhCJ0nw==
@@ -6356,41 +6343,40 @@ react-native-web@~0.11.7:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
 
-react-navigation-drawer@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-2.5.0.tgz#6d2940fb6f9ae557b47a717203b4058194ae9665"
-  integrity sha512-wSsIdLYXYdi9wOOXGzaY4Hk/NIXaP8tClEpjlAPl1rhn3kU++gyJFcQ3xLsPWg0yRYq3y8jDPEWFFf81JqfP9Q==
+react-navigation-drawer@^2.3.4:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-2.5.1.tgz#7d8b956d44f45112de8f25b3af5207e8ba8f535d"
+  integrity sha512-Xn3Iak4vsYPVf8vwanHRlmL2dBx5Td7nuMAwO2iV7Mm6sqqA/Yil6m+62oU5ZwFbPdprHxVDbErAwpv3yxa/PQ==
 
 react-navigation-material-bottom-tabs@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/react-navigation-material-bottom-tabs/-/react-navigation-material-bottom-tabs-2.3.0.tgz#7b08ec5b96bc84b1bda5011f857cedc6af985a66"
   integrity sha512-XHV92IOOoLRjHpdqbjxIHjuLAGwJCOIVxq4ZqW47RQWQZ6NejIDJnwc9MWc7UsChXsu9lbwCEOgss6GxLjFxwg==
 
-react-navigation-stack@^2.8.2:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-2.8.2.tgz#e982bbf14a28b23c323b2d4a6fce4e9754b066e6"
-  integrity sha512-e1VtlF6NDdzgKmnqE3ucgizrgUWUakdT+r7htQU24iG8AJUFQEw+tH4Lfyj0St6i8/RLckXm+o9VgYJT+pNiRw==
+react-navigation-stack@^1.7.3:
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-1.10.3.tgz#e714e442b20427f0d2d3c18fce1f9e8cfe69be0b"
+  integrity sha512-1gksFi/g/Lg9sBhgLlD0OiEB5xnatHb4C0eNMA5tli9cTVlhq375XNPIqOiTyftibBmjdApAsZFj5srUCoOu/w==
   dependencies:
-    color "^3.1.2"
-    react-native-iphone-x-helper "^1.2.1"
+    prop-types "^15.7.2"
 
-react-navigation-tabs@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-tabs/-/react-navigation-tabs-2.9.0.tgz#37407106f33367ff0ef3e5bb128d03f2721a50ef"
-  integrity sha512-+C9wyPtgxpEedhs1aX8pwtM7gJtpDMN3wPwq0jNkmONaurhb3hvE+mt3D7CLtX+zwxmMhcrPxSTSkynORKNn8g==
+react-navigation-tabs@^2.7.0:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-tabs/-/react-navigation-tabs-2.9.1.tgz#588642f6a337c2d206789834f08a86a448debf21"
+  integrity sha512-/XHM01i8jlk3k2Al2eoNnODjbrOqzjz4kW/hK6PgmleyNBbiJlYEnZWa6Pcd/30D1X2xXMv9p2wXhjUeeRQHDg==
   dependencies:
     hoist-non-react-statics "^3.3.2"
     react-lifecycles-compat "^3.0.4"
     react-native-safe-area-view "^0.14.9"
-    react-native-tab-view "^2.11.0"
+    react-native-tab-view "^2.15.1"
 
-react-navigation@~4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-4.1.1.tgz#670a1712e945e454fe9cafa424e685c2f1f30832"
-  integrity sha512-HEzPOsndrKnxTf0+gsi1N/0GKbwu8KSTOveL7ptJLG7XNXHBXVvp4lbaS3PVPe2IaiXbXCC+y3VJ8dH50wHR4g==
+react-navigation@^4.1.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-4.4.1.tgz#7511b5d46bba8e52fc2f426144127a012454c84f"
+  integrity sha512-E0TJHLS8mcdliubPjbIfyplZG1oQhHYzH3cHKMSVXWE4dhSSf1x//r+92kW9LbS62v51Nj3Bxw2cJMHw0xP9Kw==
   dependencies:
-    "@react-navigation/core" "^3.5.2"
-    "@react-navigation/native" "^3.6.5"
+    "@react-navigation/core" "^3.7.7"
+    "@react-navigation/native" "^3.8.1"
 
 react-proxy@^1.1.7:
   version "1.1.8"
@@ -7549,16 +7535,15 @@ vue-native-helper@0.1.4:
   resolved "https://registry.yarnpkg.com/vue-native-helper/-/vue-native-helper-0.1.4.tgz#f6b91297df80464c0cc07e01d0740bc2b1d4efb0"
   integrity sha512-Tqahoxhjf5PiOB5iYZ7O+iayR+ws0voZ3xfeoI+U6OYQuBChYowpkFfykv6lbbz3s/JitA8GOXh7w/UnmNzJ7g==
 
-"vue-native-router@git+https://github.com/anmoljain10/vue-native-router.git#upgrade/vue-native-router":
+vue-native-router@../../:
   version "0.1.1"
-  resolved "git+https://github.com/anmoljain10/vue-native-router.git#6fbb0a994daef474d2db1322001f189037f424ca"
   dependencies:
     lodash.get "^4.4.2"
-    react-navigation "~4.1.1"
-    react-navigation-drawer "^2.5.0"
+    react-navigation "^4.1.1"
+    react-navigation-drawer "^2.3.4"
     react-navigation-material-bottom-tabs "^2.3.0"
-    react-navigation-stack "^2.8.2"
-    react-navigation-tabs "^2.9.0"
+    react-navigation-stack "^1.7.3"
+    react-navigation-tabs "^2.7.0"
 
 vue-native-scripts@0.1.2:
   version "0.1.2"
