@@ -3,7 +3,7 @@
     "name": "DrawerNavigatorExample",
     "slug": "drawer-nav-eg",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "38.0.0",
     "platforms": [
       "ios",
       "android",
