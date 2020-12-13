@@ -4316,9 +4316,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inline-style-prefixer@^5.0.3:
   version "5.1.0"
@@ -7535,8 +7535,10 @@ vue-native-helper@0.1.4:
   resolved "https://registry.yarnpkg.com/vue-native-helper/-/vue-native-helper-0.1.4.tgz#f6b91297df80464c0cc07e01d0740bc2b1d4efb0"
   integrity sha512-Tqahoxhjf5PiOB5iYZ7O+iayR+ws0voZ3xfeoI+U6OYQuBChYowpkFfykv6lbbz3s/JitA8GOXh7w/UnmNzJ7g==
 
-vue-native-router@../../:
-  version "0.1.1"
+vue-native-router@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/vue-native-router/-/vue-native-router-0.2.0.tgz#bd0f68e9019a4744185d1ac6996296abc1e8d2f4"
+  integrity sha512-25NlX5yC/prrlhfJo/Bq4tCm6U65rBxpIlDPZb5mUry4QKdMU8MfNLpowXWe3sXmQbV+63cEMJCG7t+9dRzgnQ==
   dependencies:
     lodash.get "^4.4.2"
     react-navigation "^4.1.1"
