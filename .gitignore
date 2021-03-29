@@ -9,3 +9,4 @@ yarn-error.log
 # OS X
 .DS_Store
 
+.expo/
