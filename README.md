@@ -1,2 +1,5 @@
+## ⚠️ This project has been deprecated and is no longer maintained ⚠️
+
 # vue-native-router
-# Still in development
+
+React Navigation 4 based navigation for Vue Native
